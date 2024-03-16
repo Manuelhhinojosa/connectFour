@@ -1,0 +1,164 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: linen;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 86rem;
+  height: 50rem;
+  margin: auto;
+}
+
+.main-container > .game-container {
+  font-family: monospace;
+  color: orange;
+  width: 86rem;
+  height: 50rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.main-container > .game-container > .game-left-container {
+  width: 45rem;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.main-container
+  > .game-container
+  > .game-left-container
+  > .game-title-container {
+  font-size: 1.5rem;
+  border: 5px solid orange;
+  border-radius: 1rem;
+  width: 40rem;
+  text-align: center;
+}
+
+.main-container
+  > .game-container
+  > .game-left-container
+  > .current-player-container {
+  width: 25rem;
+  padding: 0.5rem;
+  background-color: hotpink;
+  border-radius: 1rem;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+}
+
+.main-container
+  > .game-container
+  > .game-left-container
+  > .valid-move-container {
+  background-color: orange;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-weight: 100;
+  width: 25rem;
+  text-align: center;
+}
+
+.main-container
+  > .game-container
+  > .game-left-container
+  > .connect-four-container {
+  border: 3px solid orange;
+  border-radius: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  height: 372px;
+  width: 434px;
+  padding: 1rem;
+}
+
+.main-container
+  > .game-container
+  > .game-left-container
+  > .connect-four-container
+  > .click {
+  height: 60px;
+  width: 60px;
+  border: 1px solid orange;
+  border-radius: 50%;
+}
+
+.main-container
+  > .game-container
+  > .game-left-container
+  > .connect-four-container
+  > .click:hover {
+  cursor: help;
+  box-shadow: 7px 4px 46px 0px rgba(238, 179, 102, 1);
+}
+
+.main-container
+  > .game-container
+  > .game-left-container
+  > .resetbtn-container
+  button {
+  border: none;
+  background-color: orange;
+  height: 3rem;
+  width: 7rem;
+  color: white;
+  border-radius: 1rem;
+  font-size: 1.15rem;
+  box-shadow: 29px 18px 23px 8px rgba(0, 0, 0, 0.23);
+  font-family: monospace;
+  transition: 0.5s;
+  display: none;
+}
+
+.main-container
+  > .game-container
+  > .game-left-container
+  > .resetbtn-container
+  button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.player-one {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: hotpink;
+  border: 1px solid hotpink;
+}
+
+.player-two {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: greenyellow;
+  border: 1px solid greenyellow;
+}
+
+#hide {
+  display: none;
+}
+
+.opacity {
+  opacity: 0.5;
+}
+
+#winning-message {
+  background-color: hotpink;
+}
+
+#not-allowed-cursor {
+  cursor: not-allowed;
+}
