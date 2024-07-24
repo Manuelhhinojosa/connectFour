@@ -43,6 +43,6 @@ Classic connect-four game
 
 ---
 
-### [link](https://cocky-goodall-e34f0c.netlify.app) to the game
+### [link](https://connectfourmhh.netlify.app/) to the game
 
 ---
