@@ -14,7 +14,7 @@ This project is an interactive version of the popular Connect Four game. Players
 - Netlify
 - DOM Manipulation
 
-🔗 **GitHub Repository**: [Connect Four Game GitHub](https://github.com/Manuelhhinojosa/connectFourApp)  
+  
 🌐 **Live Demo**: [Connect Four Game](https://connectfourmhh.netlify.app)
 
 Made with ❤️ by [Manuel H Hinojosa](https://manuelhinojosa.netlify.app).
